@@ -38,7 +38,7 @@ p{
     color: orange;
 }
 .button{
-    background-image: linear-gradient(to right, salmon, orange);
+    background-image: linear-gradient(to right, #F99025, #FC5A4A);
     text-decoration: none;
     padding: 1.2rem 2.5rem;
     font-size: 1.2rem;
@@ -56,7 +56,7 @@ p{
 }
 .about__me .left__side img{
     width: 100%;
-    /* height: 100%; */
+    height: 100%;
     object-fit: contain;
 }
 
@@ -70,24 +70,11 @@ p{
 #recipies__head{
     text-align: center;
 }
-#recepi__left__side{
+.recepi__side{
     max-width: 30%;
     box-shadow: 5px 5px 20px 5px gray;
     margin-right: 80px;
-    padding: 10px;
-    border-radius: 20px;
-}
-#recepi__middle__side{
-    max-width: 30%;
-    box-shadow: 5px 5px 20px 5px gray;
-    margin-right: 80px;
-    padding: 10px;
-    border-radius: 20px;
-}
-#recepi__right__side{
-    max-width: 30%;
-    box-shadow: 5px 5px 20px 5px gray;
-    padding: 10px;
+    padding: 15px;
     border-radius: 20px;
 }
 #recipe__item h3{
@@ -101,7 +88,19 @@ p{
 }
 #recipe__item img{
     max-width: 100%;
-    padding: 10px;
+    /* padding: 10px; */
+}
+.buy__cart__button{
+    display: flex;
+    justify-content: space-between;
+}
+.menu__button{
+    background-image: linear-gradient(to bottom, #338EF5, #715CE3);
+    text-decoration: none;
+    padding: 1rem 1.7rem;
+    font-size: 1.1rem;
+    color: #fff;
+    border-radius: 40px;
 }
 .achievement{
     margin: 100px 10%;
@@ -114,13 +113,7 @@ p{
     font-weight: 700;
     font-size: 3rem;
 }
-#achievement__left__side{
-    width: 30%;
-}
-#achievement__middle__side{
-    width: 30%;
-}
-#achievement__right__side{
+.achievement__side{
     width: 30%;
 }
 footer{
