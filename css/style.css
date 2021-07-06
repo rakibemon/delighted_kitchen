@@ -26,7 +26,7 @@ html{
     color: rgb(197, 58, 3);
 }
 h1{
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 700;
 }
 h2{
@@ -36,7 +36,7 @@ h3{
     font-size: 1.2rem;
 }
 p{
-    font-size: 1.1rem;
+    font-size: 1rem;
     padding-bottom: 1rem;
 }
 .left__side h1 span{
@@ -72,9 +72,6 @@ p{
     
     
 }
-#recipe__item img{
-    border-radius: 20px;
-}
 #recipies__head{
     text-align: center;
 }
@@ -95,11 +92,12 @@ p{
     text-align: center;
 }
 #recipe__item{
-    padding: 1rem 10%;
+    padding: 1rem 15%;
 }
 #recipe__item img{
-    max-width: 100%;
+    width: 100%;
     padding: 10px;
+    border-radius: 20px;
 }
 .buy__cart__button{
     display: flex;
