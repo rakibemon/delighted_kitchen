@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
     <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
     <title>Delighted Kitchen</title>
 </head>
 <body>
     <!-- Home section start here -->
-   <section class="home flex__container">
+   <section class="home flex__container" id="home">
        <div class="left__side">
         <h1> <span>Skip </span>The Diet, Just Eat Healthy With <span id="restaurent__name"> Delighted Kitchen </span>  </h1>
         <p>Imagine you don't need a diet because we provide healthy and delicious food for you!</p>
@@ -24,13 +25,13 @@
 
     <!-- About Us section start here -->
 
-   <section class="about__me flex__container">
+   <section class="about__me flex__container" id="about">
     <div class="left__side">
-        <img src="img/about-me1.png" alt="">
+        <img src="img/emon-bg.png" alt="">
     </div>
     <div class="right__side">
         <h2> About Us</h2>
-        <p>Organizer, Rakib Istiak, opened the first ‘Delighted Kitchen’ Restaurant in Mirpur, Dhaka on September 27, 2012. Today, there are 5 areas all through Dhaka, Rangpur, Chattogram, Rajshahi . ‘Delighted Kitchen’ Restaurants are well known with a substantial gathering of people including families, kids, seniors and business experts. Our benevolent condition is perfect for praising unique events, facilitating a business lunch or assembling for a flavorful dinner with loved ones.</p>
+        <p>Organizer, Rakib Istiak, opened the first 'Delighted Kitchen' Restaurant in Mirpur, Dhaka on September 27, 2012. Today, there are 5 branches all through Dhaka, Rangpur, Chattogram, Rajshahi . ‘Delighted Kitchen’ Restaurants are well known with a substantial gathering of people including families, kids, seniors and business experts. Our benevolent condition is perfect for praising unique events, facilitating a business lunch or assembling for a flavorful dinner with loved ones.</p>
         <a href="https://www.linkedin.com/in/rakib-emon-82243b1ba/" target="_blank" class="button">Contact Us</a>
     </div>
 
@@ -40,20 +41,20 @@
 
    <!--  recipies section start here -->
 
-   <div class="recipies">
+   <div class="recipies" id="reci">
        <div id="recipies__head">
-        <h2> My Recipies </h2>
-        <p> We made some delicious food for our customer. Tasty & Healthy food our 1st concern. Here are some food list for you. Choose one or more food form here
-        </p>
-    </div>
+            <h2 style="padding-top: 20px;"> My Recipies </h2>
+            <p> We made some delicious food for our customer. Tasty & Healthy food our 1st concern. Here are some food list for you. Choose one or more food form here
+            </p>
+        </div>
     <section class="flex__container" id="recipe__item">
         <div class="recepi__side">
             <img src="img/food_1.jpg" alt="Chicken Parm Stuffed Peppers Image">
             <h3> Chicken Parm Stuffed Peppers</h3>
             <p>Stuffed peppers take a chicken Parmesan twist in this delicious and colorful version filled with chicken, pasta sauce and mozzarella, finished with a crispy bread crumb and Parmesan topping.</p>
-            <p> Price &#2547; 240 </p>
+            <p class="price"> Price &#2547; 240 </p>
             <div class="buy__cart__button">
-                <a href="#" target="_blank" class="menu__button">Add to cart</a>
+                <a href="#" target="_blank" class="menu__button"><i class="fas fa-shopping-cart"></i></a>
                 <a href="#" target="_blank" class="menu__button">Buy Now</a>
             </div>
         </div>
@@ -63,9 +64,9 @@
             <p>This Spicy Thai Pumpkin Soup recipe is bursting with Thai coconut curry flavor. It makes a luxuriously creamy and comforting soup that is naturally keto, vegetarian, vegan, and gluten free.</p>
             
             
-            <p> Price &#2547; 280 </p>
+            <p class="price"> Price &#2547; 280 </p>
             <div class="buy__cart__button">
-                <a href="#" target="_blank" class="menu__button">Add to cart</a>
+                <a href="#" target="_blank" class="menu__button"><i class="fas fa-shopping-cart"></i></a>
                 <a href="#" target="_blank" class="menu__button">Buy Now</a>
             </div>
         </div>
@@ -73,13 +74,13 @@
             <img src="img/food_3.jpg" alt="Salmon with asparagus Image">
             <h3> Salmon with asparagus</h3>
             <p>Pan-roasted fillet of salmon with marinated Jersey Royals and dill and crab salad. The lemon-garlic-herb butter melts over this baked salmon and asparagus as it bakes and every bite is so flavorful! </p>
-            <p> Price &#2547; 250 </p>
+            <p class="price"> Price &#2547; 250 </p>
             <div class="buy__cart__button">
-                <a href="#" target="_blank" class="menu__button">Add to cart</a>
+                <a href="#" target="_blank" class="menu__button"><i class="fas fa-shopping-cart"></i></a>
                 <a href="#" target="_blank" class="menu__button">Buy Now</a>
             </div>
         </div>
-        </div>
+
     </section> 
 
    </div>
@@ -89,26 +90,39 @@
    <section class="achievement flex__container">
     <div class="achievement__side">
         <h2>700K</h2>
-        <h4>Youtube Subscribers</h4>
+        <h4>YouTube Subscribers</h4>
     </div>
     <div class="achievement__side">
         <h2>2.4M</h2>
-        <h4>Instagram Followers</h4>
+        <h4> Instagram Followers</h4>
     </div>
     <div class="achievement__side">
         <h2>3M</h2>
-        <h4>Facebook Likes</h4>
+        <h4> Facebook Likes</h4>
     </div>
    </section>
    <!-- achievement section ends here -->
 
    <!-- Footer section start here -->
    <footer>
-       <img src="img/logo2.png" alt="Restaurent Logo">
-       <h2> <span> Delighted </span> Kitchen </h2>
-       <p>Eat healthy to live healthy. Live healthy to live happy</p>
-       <p> All rights reserved by EMON &copy; alert</p>
-       </footer>
+       <div class="flex__container">
+        <div class="left__side">
+            <img src="img/logo2.png" alt="Restaurent Logo">
+            <h2> <span> Delighted </span> Kitchen </h2>
+            <p>Eat healthy to live healthy. Live healthy to live happy</p>
+            
+            </div>
+            <div class="right__side">
+                <h4> Quick Links</h4>
+                <ul>
+                    <li> <a href="#home"> Home </a></li>
+                    <li> <a href="#about"> About </a></li>
+                    <li> <a href="#reci"> Recipies </a></li>
+                </ul>
+            </div>
+        </div>
+        <p id="copyright"> All rights reserved by EMON &copy; alert</p>
+    </footer>
    <!-- Footer section start here -->
 </body>
 </html>

@@ -7,12 +7,17 @@ body{
     font-family: 'Inter', sans-serif;
     color: #575757;
 }
+html{
+    scroll-behavior: smooth;
+}
 .flex__container{
     display: flex;
 }
+.home .left__side{
+    padding: 10rem 10rem;
+}
 .left__side{
     width: 50%;
-    padding: 10rem 15rem;
 }
 .right__side{
     width: 50%;
@@ -21,18 +26,18 @@ body{
     color: rgb(197, 58, 3);
 }
 h1{
-    font-size: 3.1rem;
-    font-weight: 900;
+    font-size: 3rem;
+    font-weight: 700;
 }
 h2{
-    font-size: 2.5rem;
+    font-size: 2.1rem;
 }
 h3{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 p{
-    font-size: 1.2rem;
-    padding-bottom: 3rem;
+    font-size: 1.1rem;
+    padding-bottom: 1rem;
 }
 .left__side h1 span{
     color: orange;
@@ -55,14 +60,17 @@ p{
     background-position: center;
 }
 .about__me .left__side img{
-    width: 100%;
+    width: 80%;
     height: 100%;
+    padding-left: 7rem;
     object-fit: contain;
 }
 
 
 .about__me .right__side{
     margin: 15rem 8rem;
+    
+    
 }
 #recipe__item img{
     border-radius: 20px;
@@ -71,11 +79,14 @@ p{
     text-align: center;
 }
 .recepi__side{
-    max-width: 30%;
+    width: 30%;
     box-shadow: 5px 5px 20px 5px gray;
     margin-right: 80px;
-    padding: 15px;
+    padding: 0px 10px;
     border-radius: 20px;
+}
+.price{
+    padding: 0px 0px;
 }
 #recipe__item h3{
     text-align: center;
@@ -88,19 +99,23 @@ p{
 }
 #recipe__item img{
     max-width: 100%;
-    /* padding: 10px; */
+    padding: 10px;
 }
 .buy__cart__button{
     display: flex;
     justify-content: space-between;
 }
 .menu__button{
-    background-image: linear-gradient(to bottom, #338EF5, #715CE3);
+    background-color: rgba(28, 93, 179, 0.836);
     text-decoration: none;
-    padding: 1rem 1.7rem;
-    font-size: 1.1rem;
     color: #fff;
+    padding: 0.75rem 2rem;
     border-radius: 40px;
+    font-size: 0.90rem;
+    margin-bottom: 10px;
+}
+.menu__button:hover{
+    background-image: linear-gradient(to bottom, orange, tomato);
 }
 .achievement{
     margin: 100px 10%;
@@ -116,10 +131,15 @@ p{
 .achievement__side{
     width: 30%;
 }
+.achievement h4 i{
+    background-image: linear-gradient(#5A57CA,#C92F99,#FAA13E);
+}
 footer{
-    text-align: center;
-    background-color: #111;
-    padding-top: 2rem;
+   background-color: #111;
+   /* display: flex; */
+   /* margin: auto auto; */
+   /* justify-content: center;
+   align-items: center; */
 }
 footer h2{
     color: #5B5B5B;
@@ -127,6 +147,38 @@ footer h2{
 footer h2 span{
     color: orange;
 }
+
 footer p{
     color: #fff;
+}
+footer .right__side{
+    /* text-align: center; */
+    /* align-items: center; */
+    padding-left: 20rem;
+    
+}
+footer .right__side h4{
+    color: rgba(99, 189, 71, 0.726);
+    padding-left: 2.4rem;
+    padding-top: 5rem;
+}
+footer .right__side ul{
+    list-style: none;
+}
+footer .right__side ul li{
+    margin: 10px 0px;
+    letter-spacing: 2px;
+}
+footer .right__side ul li a{
+    color: #fff;
+    text-decoration: none;
+   
+}
+footer .left__side{
+    padding-left: 5rem;
+    text-align: center;
+}
+#copyright{
+    text-align: center;
+    color: rgba(68, 247, 163, 0.856);
 }
